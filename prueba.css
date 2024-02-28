@@ -1,0 +1,41 @@
+/* Estilo para el área del interruptor */
+.interruptor {
+    display: inline-flex; /* Utiliza flexbox para alinear el interruptor y el texto */
+    align-items: center; /* Centra los elementos verticalmente */
+    position: relative; /* Posicionamiento relativo para el posicionamiento absoluto del checkbox */
+}
+
+/* Estilo para hacer el checkbox invisible pero funcional */
+.rodadero {
+    opacity: 0; /* Hace el checkbox completamente transparente */
+    position: absolute; /* Posicionamiento absoluto */
+    z-index: -1; /* Coloca el checkbox detrás del label */
+}
+
+/* Estilo para el label que actúa como el botón del interruptor */
+.rodadero2 {
+    width: 40px; /* Ancho del interruptor */
+    height: 20px; /* Altura del interruptor */
+    background-color: #ccc; /* Color de fondo del interruptor */
+    border-radius: 20px; /* Borde redondeado para el interruptor */
+    cursor: pointer; /* Cambia el cursor a un puntero */
+    position: relative; /* Posicionamiento relativo para los pseudo-elementos */
+}
+
+/* Estilo para el círculo dentro del interruptor que se mueve */
+.rodadero2:before {
+    content: ''; /* Necesario para los pseudo-elementos */
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    background-color: #fff; /* Color de fondo del círculo */
+    border-radius: 50%; /* Hace el círculo perfectamente redondo */
+    transition: all 0.3s; /* Transición suave para el movimiento */
+}
+
+/* Cambia la posición del círculo cuando el checkbox está marcado */
+.rodadero:checked + .rodadero2:before {
+    transform: translateX(20px); /* Mueve el círculo hacia la derecha */
+}

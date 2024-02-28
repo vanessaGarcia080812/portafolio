@@ -1,0 +1,49 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/fondoPantalla.jpg'); /* Asegúrate de actualizar esta ruta */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cuadro {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #EA9AB2;
+    text-align: center; /* Centra todo el contenido */
+    width: auto; /* Ajusta esto según necesites */
+}
+
+.cuadro .imagen img {
+    max-width: 100px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 auto; /* Centra la imagen */
+    display: block;
+    
+}
+
+.cuadro h1 {
+    margin: 20px 0; /* Añade un espacio encima y debajo del texto */
+}
+
+.boton button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-bottom: #000000;
+    cursor: pointer;
+    background-color: #C27BA0; /* Ajusta el color de fondo del botón */
+    color: #000000;
+    display: block; /* Asegura que el botón sea un bloque para centrarlo */
+    margin: 20px auto; /* Centra el botón horizontalmente */
+}
+
+.boton button:hover {
+    background-color: #EA9AB2;
+}
