@@ -144,7 +144,7 @@ aside .texto a {
 }
 
 
-.contenido-principal {
+.principal {
     display: flex;
     flex-direction: row; 
 }
@@ -155,7 +155,7 @@ aside {
     /* Tus estilos existentes para el aside */
 }
 
-.contenido-principal-main {
+.contenidotodo {
     border: 1px solid #000000;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     border-radius: 15px;
@@ -166,13 +166,13 @@ aside {
 }
 
 
-.contenido-principal-main h2 {
+.contenidotodo h2 {
     font-family: "Signika Negative", sans-serif;
     font-size: 60px;
     text-align: left;
     font-weight: bold;
 }
-.contenido-principal-main h2 {
+.contenidotodo h2 {
     font-family: "Signika Negative", sans-serif;
     font-size: 60px; /* Ajusta el tamaño de la fuente según sea necesario */
     text-align: left; /* Alinea el texto a la derecha */
@@ -182,7 +182,7 @@ aside {
 }
 
 
-.contenido-con-imagen {
+.imagen {
     display: flex;
     align-items: right; 
     gap: 70px; 
