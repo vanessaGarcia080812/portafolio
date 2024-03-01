@@ -17,5 +17,15 @@
             </div>
         </div>
     </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var line = document.querySelector('.loading .line'); 
+    
+            line.addEventListener('animationend', function() {
+                window.location.href = 'inicio.html'; 
+            });
+        });
+    </script>
+    
 </body>
 </html>

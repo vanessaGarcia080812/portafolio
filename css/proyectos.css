@@ -12,8 +12,6 @@ header{
 body{
     background-size:auto;
     background-color: #EFCFE3;
-    
-
 }
 .container1{
     width: 15%;
@@ -105,7 +103,7 @@ aside .texto a {
     display: flex;
     align-items: center;
     justify-content: flex-start; 
-    margin-bottom:  100px; /* Espacio */
+    margin-bottom:  100px;
     padding: 10px; 
     box-sizing: border-box;
     background-color: #EFCFE3;
@@ -126,7 +124,7 @@ aside .texto a {
     height: 20px;
     background: #EA9AB2;
     border-radius: 20px;
-    margin-right: 10px; /* interruptor y texto */
+    margin-right: 10px; 
     position: relative;
     
     
@@ -145,7 +143,7 @@ aside .texto a {
 }
 
 .rodadero:checked + .rodadero2:before {
-    transform: translateX(20px);/* gira gira  */
+    transform: translateX(20px);
 }
 
 
@@ -165,30 +163,28 @@ aside {
     justify-content: center;
     align-items: center;
     text-align: center; 
-    background-color: aquamarine;
-    
+    background-color: #EA9AB2;
+    width: 1150px;
+    height: 540px;
     padding: 50px;
 }
-
 .contenidotodo {
-    border: 1px solid #ab3f3f;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 5px solid #EA9AB2;
     border-radius: 15px;
     padding: 20px;
-    background-color: #72a41c;
+    background-color: #EA9AB2;
     text-align: center;
-    width: auto; /* Ajusta esto según necesites */
-    display: flex; /* Activa Flexbox para este contenedor */
+    width: auto;
+    display: flex; 
     flex-direction: row; 
-    justify-content: center; /* Centra los elementos en la fila */
-    flex-wrap: wrap; /* Permite que los elementos se ajusten en líneas múltiples si no caben */
-    gap: 10px; /* Espacio entre los elementos de trabajo */
+    justify-content: center; 
+    flex-wrap: wrap;
+    gap: 10px;
 }
-
 .trabajo {
     border: 2px solid #000000;
     padding: 100px;
     height: 300px;
     border-radius: 50px;
-    background-color: #9f0000;
+    background-color: #C27BA0;
 }

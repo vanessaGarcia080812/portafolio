@@ -5,7 +5,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../img/fondoPantalla.jpg'); /* Asegúrate de actualizar esta ruta */
+    background-image: url('../img/fondoPantalla.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -16,34 +16,37 @@ body, html {
     border-radius: 15px;
     padding: 20px;
     background-color: #EA9AB2;
-    text-align: center; /* Centra todo el contenido */
-    width: auto; /* Ajusta esto según necesites */
+    text-align: center; 
+    width: auto; 
 }
 
 .cuadro .imagen img {
-    max-width: 100px; /* Ajusta el tamaño de la imagen */
-    height: auto; /* Mantiene la proporción de la imagen */
-    margin: 0 auto; /* Centra la imagen */
+    max-width: 100px;
+    height: auto; 
+    margin: 0 auto; 
     display: block;
     
 }
 
 .cuadro h1 {
-    margin: 20px 0; /* Añade un espacio encima y debajo del texto */
+    margin: 20px 0;
 }
 
-.boton button {
+.boton .boton-entrar {
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 5px;
-    border-bottom: #000000;
+    border: solid 2px #000000; 
     cursor: pointer;
-    background-color: #C27BA0; /* Ajusta el color de fondo del botón */
+    background-color: #C27BA0; 
     color: #000000;
-    display: block; /* Asegura que el botón sea un bloque para centrarlo */
-    margin: 20px auto; /* Centra el botón horizontalmente */
+    text-decoration: none; 
+    display: inline-block; 
+    margin: 20px auto; 
+    text-align: center; 
 }
 
-.boton button:hover {
-    background-color: #EA9AB2;
+.boton .boton-entrar:hover {
+    background-color: #EA9AB2; 
 }
+

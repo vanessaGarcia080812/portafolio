@@ -126,7 +126,7 @@ aside .texto a {
     height: 20px;
     background: #EA9AB2;
     border-radius: 20px;
-    margin-right: 10px; /* interruptor y texto */
+    margin-right: 10px; 
     position: relative;
     
     
@@ -145,7 +145,7 @@ aside .texto a {
 }
 
 .rodadero:checked + .rodadero2:before {
-    transform: translateX(20px);/* gira gira  */
+    transform: translateX(40px);
 }
 
 
@@ -183,7 +183,7 @@ aside {
     font-size: 60px; 
     text-align: left; 
     font-weight: bold;
-    color: #EFCFE3; /* Color del texto */
+    color: #EFCFE3; 
     text-shadow: -3px -3px 0 rgb(0, 0, 0)
 }
 
@@ -204,10 +204,6 @@ aside {
     width: 450px;
     height: auto; 
 }
-
-
-
-
 
 .linea {
     border-top: 8px dashed #000; 

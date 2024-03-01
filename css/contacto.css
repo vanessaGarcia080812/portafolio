@@ -105,7 +105,7 @@ aside .texto a {
     display: flex;
     align-items: center;
     justify-content: flex-start; 
-    margin-bottom:  100px; /* Espacio */
+    margin-bottom:  100px; 
     padding: 10px; 
     box-sizing: border-box;
     background-color: #EFCFE3;
@@ -126,7 +126,7 @@ aside .texto a {
     height: 20px;
     background: #EA9AB2;
     border-radius: 20px;
-    margin-right: 10px; /* interruptor y texto */
+    margin-right: 10px;
     position: relative;
     
     
@@ -145,7 +145,7 @@ aside .texto a {
 }
 
 .rodadero:checked + .rodadero2:before {
-    transform: translateX(20px);/* gira gira  */
+    transform: translateX(20px);
 }
 
 
@@ -171,27 +171,26 @@ aside {
     box-shadow: 0 2px 4px rgba(0, 38, 161, 0.1);
     border-radius: 15px;
     padding: 20px;
-    background-color: #72a41c;
+    background-color: #EA9AB2;
     text-align: center;
-    width: auto; /* Ajusta esto según necesites */
-    display: flex; /* Activa Flexbox para este contenedor */
+    width: 1150px; 
+    display: flex; 
     flex-direction: row; 
-    justify-content: center; /* Centra los elementos en la fila */
-    flex-wrap: wrap; /* Permite que los elementos se ajusten en líneas múltiples si no caben */
+    justify-content: center; 
+    flex-wrap: wrap; 
     gap: 100px; 
-    height: 550px;
+    height: 500px;
 }
 
 .red1 {
-    border: 2px solid #000000;
     padding: 10px;
     height: auto;
     border-radius: 50px;
-    background-color: #9f0000;
+    background-color: #EA9AB2;
     display: flex;
-    flex-direction: column; /* Organiza los hijos verticalmente */
-    justify-content: center; /* Centra el contenido verticalmente */
-    align-items: center; /* Centra el contenido horizontalmente */
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
     margin: 10px;
     width: 200px;
 }
@@ -199,7 +198,7 @@ aside {
 .red1 img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 0; /* Minimiza el margen entre la imagen y el texto */
+    margin-bottom: 0; 
 
 }
 
@@ -208,15 +207,14 @@ aside {
     padding: 0;
 }
 .red2 {
-    border: 2px solid #000000;
     padding: 10px;
     height: auto;
     border-radius: 50px;
-    background-color: #9f0000;
+    background-color: #EA9AB2;
     display: flex;
-    flex-direction: column; /* Organiza los hijos verticalmente */
-    justify-content: center; /* Centra el contenido verticalmente */
-    align-items: center; /* Centra el contenido horizontalmente */
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
     margin: 10px;
     width: 200px;
 }
@@ -224,7 +222,7 @@ aside {
 .red2 img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 0; /* Minimiza el margen entre la imagen y el texto */
+    margin-bottom: 0; 
 
 }
 
@@ -235,15 +233,14 @@ aside {
 
 
 .red3 {
-    border: 2px solid #000000;
     padding: 10px;
     height: auto;
     border-radius: 50px;
-    background-color: #9f0000;
+    background-color: #EA9AB2;
     display: flex;
-    flex-direction: column; /* Organiza los hijos verticalmente */
-    justify-content: center; /* Centra el contenido verticalmente */
-    align-items: center; /* Centra el contenido horizontalmente */
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
     margin: 10px;
     width: 200px;
 }
@@ -251,7 +248,7 @@ aside {
 .red3 img {
     max-width: 100%;
     height: auto;
-    margin-bottom: 0; /* Minimiza el margen entre la imagen y el texto */
+    margin-bottom: 0; 
 
 }
 
