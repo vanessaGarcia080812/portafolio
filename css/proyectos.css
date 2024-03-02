@@ -177,14 +177,20 @@ aside {
     width: auto;
     display: flex; 
     flex-direction: row; 
-    justify-content: center; 
-    flex-wrap: wrap;
+    justify-content: center;
     gap: 10px;
+
 }
 .trabajo {
     border: 2px solid #000000;
-    padding: 100px;
-    height: 300px;
+    padding: 10xpx;
+    height: 100px;
     border-radius: 50px;
-    background-color: #C27BA0;
+    background-color: #ff0084;
+   
+}
+.trabajo img
+{
+    max-width: 60%;
+    height: auto;
 }
